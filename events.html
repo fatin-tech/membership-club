@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events - Club Membership</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Header Title -->
+  <div class="custom-header py-3 text-white text-center">
+    <h1 class="text-center m-0">List of Upcoming Events</h1>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="container-fluid bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="member-list.html">Member List</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Member Profile</a></li>
+          <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="attendance-form.html">Attendance</a></li>
+        </ul>
+      </div>
+
+       <div class="d-flex ms-auto">
+        <a class="nav-link text-white" href="login.html">
+          <i class="fa-solid fa-arrow-right-from-bracket me-1" style="color: white;"></i> Log Out
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Events Section -->
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <!-- Event Card 1 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Microsoft Excel Workshop</h5>
+            <p class="card-text"><strong>Date:</strong> July 10, 2025<br>
+              <strong>Time:</strong> 9:00 AM - 2:00 PM<br>
+              <strong>Venue:</strong> Dewan Seminar 2<br>
+              <strong>Description:</strong> Workshop focused on essential functions, data analysis, and productivity tools for students.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Card 2 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Community Service</h5>
+            <p class="card-text"><strong>Date:</strong> August 5, 2025<br>
+              <strong>Time:</strong> 8:00 AM - 4:00 PM<br>
+              <strong>Venue:</strong> Kampung Baru<br>
+              <strong>Description:</strong> Charity and clean-up project organized by club volunteers.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Card 3 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Tech Workshop</h5>
+            <p class="card-text"><strong>Date:</strong> September 1, 2025<br>
+              <strong>Time:</strong> 2:00 PM - 5:00 PM<br>
+              <strong>Venue:</strong> Computer Lab 3<br>
+              <strong>Description:</strong> Learn the basics of web development and GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Card 4 -->
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Team Building Retreat</h5>
+            <p class="card-text"><strong>Date:</strong> October 20, 2025<br>
+              <strong>Time:</strong> Full Day<br>
+              <strong>Venue:</strong> Taman Rekreasi Bukit Cerakah<br>
+              <strong>Description:</strong> Strengthening teamwork and leadership among members.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 mt-auto">
+    &copy; 2025 Club Membership | All Rights Reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
