@@ -1,0 +1,2 @@
+# membership-club
+IMS566 INDIVIDUAL ASSIGNMENT
